@@ -465,10 +465,11 @@ export const importLazy = (promise) => (
 
 > [高阶组件](https://zhuanlan.zhihu.com/p/24776678?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) (Higher Order Component)就是一个 React 组件包裹着另外一个 React 组件。
 
+可参考React[官方文档](https://facebook.github.io/react/docs/higher-order-components.html)说明。
+
+>  a higher-order component is a function that takes a component and returns a new component
+ 
 这种模式通常使用`工厂函数`来实现。
-
-~~使用高阶组件包裹普通的React组件后，其调用方式与普通的React组件完全一致。~~
-
 
 ### 封装懒加载组件LazilyLoad的高阶组件工厂函数
 
@@ -632,5 +633,6 @@ class App extends React.Component {
 * [深入理解 React 高阶组件](https://zhuanlan.zhihu.com/p/24776678?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 * [ES7 Decorator 装饰者模式](http://taobaofed.org/blog/2015/11/16/es7-decorator/index.html)
 * [ES Decorators简介](http://otakustay.com/introduction-to-es-decorator/)
+* [Higher-Order Components](https://facebook.github.io/react/docs/higher-order-components.html)
 
 
