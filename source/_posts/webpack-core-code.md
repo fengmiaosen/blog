@@ -1,7 +1,9 @@
 ---
 title: webpack之plugin内部运行机制
 date: 2017-03-21
-tags:[javascript,webpack]
+tags: [javascript,webpack]
+categories: 
+    - webpack
 ---
 
 # 简介
